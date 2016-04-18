@@ -1,0 +1,39 @@
+body {
+	background-color: black;
+	color: white;
+	margin-top: 50px;
+}
+
+header {
+	text-align: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 10px;
+	background-color: black;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	white-space: pre;
+}
+
+li.ERROR {
+	color: red;
+}
+li.WARN {
+	color: orange;
+}
+li.INFO {
+	color: white;
+}
+li.DEBUG {
+	color: grey;
+}
+li.TRACE {
+	color: darkgray;
+}

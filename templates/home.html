@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block body %}
+<ul>
+	{% for l in logs %}
+	<li class={{ l.msgtype }}>{{ l.msg }}</li>
+	{% endfor %}
+</ul>
+{% endblock %}
